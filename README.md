@@ -9,7 +9,7 @@ Using the author's personal photos as an exercise, this project displays images 
 ## Built With
 
 * [Bootstrap](https://getbootstrap.com/) v4.1.0 - CSS framework
-* [Exif.js](https://github.com/exif-js/exif-js)
+* [EXIF-js](https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js)
 
 ## Author
 
