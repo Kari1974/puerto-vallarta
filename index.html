@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- browser-sync start --server --files="**/*" -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kari Whitney">
+    <meta name="description" content="An exercise in looking at image EXIF data for future consideration in enhancing access to a photo archive">
+    <meta name="keywords" content="EXIF,web_design">
+
+    <title>Revealing EXIF data</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap v4.1.0 CSS stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="sticky-top text-center bg-info text-white p-3">
+        <h1>Puerto Vallarta Vacation</h1>
+        <h2>Fall 2005</h2>
+    </header>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/OscarsKariKen.JPG " style="width: 100% ">
+
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/Fireworks-4.JPG " style="width: 100% ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/Bounganvilias.JPG " style="width: 100% ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/MaleconSailKari.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-1.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-2.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-3.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-4.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-5.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-6.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card shadow-lg mb-5 bg-white rounded ">
+                    <img class="card-img-top " src="photo-folder/2366-8.JPG" style="width: 100%">
+                    <div class="card-body ">
+                        <h5 class="card-title ">FILE_NAME
+                            <br>
+                            <small class="text-muted">FILE_SIZE</small>
+                        </h5>
+                        <p class="card-text ">ORIGIN_DATE-TAKEN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery library (required by Bootstrap's JavaScript library) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+
+    <!-- PopperJS library (required by Bootstrap's JavaScript library) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js " integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ "
+        crossorigin="anonymous "></script>
+
+    <!-- Bootstrap v4.1.0 JavaScript library -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js " integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm "
+        crossorigin="anonymous "></script>
+
+    <footer>
+        <nav class="navbar navbar-light bg-info text-white p-2">
+            <div align="left">
+                Created by
+                <b>
+                    <a href="http://www.kwhitney.com" target="_blank">Kari Whitney</b>
+                </a> for INFX 512 (Spring 2018) at the
+                <a href="https://ischool.uw.edu/programs/mlis" target="_blank">University of Washington iSchool.</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
