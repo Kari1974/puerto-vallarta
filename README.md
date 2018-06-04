@@ -17,4 +17,5 @@ Using the author's personal photos as an exercise, this project displays images 
 
 ## Acknowledgments
 
-* Thanks to instructor Nick DeNardis for his expertise
+* Thanks to instructor [N. DeNardis](https://github.com/nickdenardis) for his expertise
+* Thanks to family member [D. Whitney](https://github.com/dwhitnee) for retiring so that he could share his expertise
